@@ -1,54 +1,35 @@
-﻿# 🚗 US Accident Severity Predictor
+﻿# 🚗 US Accident Severity Predictor (USA)
 
-## 📥 Data Setup
+A comprehensive **data analysis and machine learning project** that analyzes large-scale US accident data and predicts accident severity using statistical analysis, clustering, and supervised ML models.
 
-### Step 1: Download Dataset
-The model requires the **US Accidents (2016 - 2023)** dataset from Kaggle:
+---
 
-1. **Download from Kaggle:**
-   - Visit: https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents
-   - Click **Download** button
-   - Extract `US_Accidents_March23.csv` to project root
+## 📌 Project Overview
 
-2. **OR use Kaggle CLI (Automated):**
-   ```bash
-   pip install kaggle
-   kaggle datasets download -d sobhanmoosavi/us-accidents --unzip
+This project processes and analyzes US accident records (2016–2023) to:
+- Understand accident patterns across time, location, and conditions
+- Identify high-risk scenarios using clustering
+- Predict accident severity using machine learning
 
-A comprehensive machine learning system for predicting accident severity using real US accident data.
+The project is designed to be **end-to-end**: data ingestion → preprocessing → analysis → modeling → visualization.
 
-## 📊 Project Overview
+---
 
-This project analyzes US accident data and builds a predictive model to determine accident severity levels based on various factors including:
-- Weather conditions
-- Location
-- Time of day
-- Road type
-- Visibility
-- Number of vehicles involved
+## 📥 Dataset Setup
 
-## 🎯 Features
+### Dataset
+- **US Accidents (2016–2023)** from Kaggle  
+- Source: https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents
 
-- **Data Processing**: Clean and preprocess accident data
-- **ML Model**: Random Forest classifier for severity prediction
-- **Database Integration**: MySQL database for data storage
-- **Visualizations**: Comprehensive charts and analysis
-- **Clustering**: K-means clustering analysis
+> ⚠️ **Note:**  
+> Due to GitHub file size limits, raw CSV datasets are **not included** in this repository.
 
-## 📦 Requirements
+### Option 1: Manual Download
+1. Download the dataset from Kaggle
+2. Extract `US_Accidents_March23.csv`
+3. Place it in the project root directory
 
-- Python 3.8+
-- MySQL Server
-- pandas
-- numpy
-- scikit-learn
-- matplotlib
-- seaborn
-- mysql-connector-python
-
-## 🚀 Quick Start
-
-### 1. Install Dependencies
-
+### Option 2: Kaggle CLI (Recommended)
 ```bash
-pip install -r requirements.txt
+pip install kaggle
+kaggle datasets download -d sobhanmoosavi/us-accidents --unzip
