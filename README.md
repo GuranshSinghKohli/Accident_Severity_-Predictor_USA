@@ -19,7 +19,7 @@ The project is designed to be **end-to-end**: data ingestion → preprocessing �
 
 ### Dataset
 - **US Accidents (2016–2023)** from Kaggle  
-- Source: https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents
+- Source: https://www.kaggle.com/code/jingzongwang/usa-car-accidents-severity-prediction
 
 > ⚠️ **Note:**  
 > Due to GitHub file size limits, raw CSV datasets are **not included** in this repository.
